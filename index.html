@@ -1172,6 +1172,19 @@
     .footer-social:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-1px); }
     .footer-copy { font-size: 0.8125rem; color: var(--text-muted); }
 
+    /* ─── NICHES ─── */
+    .niche-cloud { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; max-width: 900px; margin: 0 auto; }
+    .niche-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 8px 16px; border-radius: 9999px;
+      border: 1px solid var(--border);
+      font-size: 0.875rem; color: var(--text-secondary);
+      background: var(--bg);
+      transition: border-color 0.2s, color 0.2s;
+      cursor: default;
+    }
+    .niche-pill:hover { border-color: #3b82f6; color: #3b82f6; }
+
     /* ─── SCROLL REVEAL ─── */
     .reveal {
       opacity: 0; transform: translateY(20px);
@@ -1374,8 +1387,35 @@
   </div>
 </section>
 
+<!-- ═══ NICHES ═══ -->
+<section id="niches" class="section">
+  <div class="section-inner" style="text-align:center;">
+    <h2 class="section-heading reveal" data-ru='Идеально для вашего <span class="muted">бизнеса</span>' data-en='Perfect for your <span class="muted">business</span>' data-pl='Idealnie dla Twojego <span class="muted">biznesu</span>'>Идеально для вашего <span class="muted">бизнеса</span></h2>
+    <div class="niche-cloud reveal" style="margin-top:40px;">
+      <span class="niche-pill">💼 Салоны красоты</span>
+      <span class="niche-pill">☕ Кафе и рестораны</span>
+      <span class="niche-pill">🎪 Фитнес-клубы</span>
+      <span class="niche-pill">🏥 Медицинские клиники</span>
+      <span class="niche-pill">🏘 Агентства недвижимости</span>
+      <span class="niche-pill">👩 Фрилансеры</span>
+      <span class="niche-pill">🔧 Сервисные центры</span>
+      <span class="niche-pill">📊 Образование</span>
+      <span class="niche-pill">🐾 Ветклиники</span>
+      <span class="niche-pill">💈 Барбершопы</span>
+      <span class="niche-pill">🛍 Интернет-магазины</span>
+      <span class="niche-pill">🎯 Маркетинг</span>
+      <span class="niche-pill">🚗 Автосервисы</span>
+      <span class="niche-pill">💰 Финансовые консультанты</span>
+      <span class="niche-pill">🏗 Строительство</span>
+      <span class="niche-pill">🎨 Дизайн-студии</span>
+      <span class="niche-pill">📷 Фотографы</span>
+      <span class="niche-pill">🎵 Музыканты</span>
+    </div>
+  </div>
+</section>
+
 <!-- ═══ PRODUCT ═══ -->
-<section id="product" class="section" style="padding-top: 140px;">
+<section id="product" class="section">
   <div class="section-inner">
     <div style="text-align:center;margin-bottom:48px;" class="reveal">
       <h2 class="section-heading" data-ru='Сайт который <span class="muted">продаёт</span>' data-en='A website that <span class="muted">sells</span>' data-pl='Strona która <span class="muted">sprzedaje</span>'>Сайт который <span class="muted">продаёт</span></h2>
@@ -1401,7 +1441,6 @@
   </div>
 </section>
 
-<!-- ═══ STATS ═══ -->
 <section id="stats" class="section">
   <div class="section-inner">
     <div class="stats-grid">
@@ -1628,7 +1667,7 @@
         <div class="footer-col-title" data-ru="Связаться" data-en="Contact" data-pl="Kontakt">Связаться</div>
         <ul>
           <li><a href="https://t.me/sashakets" target="_blank" rel="noopener">Telegram</a></li>
-          <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.instagram.com/six7hub/" target="_blank" rel="noopener">Instagram</a></li>
         </ul>
       </div>
     </div>
